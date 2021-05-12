@@ -58,7 +58,7 @@ function StarWars(props) {
                   const res2 = await fetch(homeworld);
                   const json2 = await res2.json();
                   console.log(json2)
-                  setHomeworld(data.name);
+                  setHomeworld(Object.entries(json2));
                   setStarData(json);
                   setLoadingState("Success!");
 
