@@ -10,6 +10,10 @@ function Character(props) {
             <p>Hair Color: {props.hair_color}</p>
             <p>Eye Color: {props.eye_color}</p>
             <p>Homeworld: {props.homeworld}</p>
+            <p>Climate: {props.climate}</p>
+            <p>Created: {props.created}</p>
+            <p>Population: {props.population}</p>
+            <p>Terrain: {props.terrain}</p>
 
         </div>
     )
